@@ -26,7 +26,8 @@ body{
 background-color:#7da0af1c;
 backdrop-filter:blur(10px) ;
 height: 50%;
-width: 35%;
+width: 90%;
+    max-width:500px;
 padding: 20px;
 text-align: center;
 color: white;
