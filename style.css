@@ -1,0 +1,77 @@
+*{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-image: url(/image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+}
+.timerContainer{
+    display: flex;
+    flex-direction: column;
+background-color:#7da0af1c;
+backdrop-filter:blur(10px) ;
+height: 50%;
+width: 35%;
+padding: 20px;
+text-align: center;
+color: white;
+border: 2px solid rgba(1, 35, 42, 0.47);
+border-radius: 2%;
+}
+h1{
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.timer{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+button{
+    height: 2rem;
+    width: 6rem;
+    padding: 6px 8px;
+    border: 1px solid rgb(117, 177, 137);
+    border-radius: 9px;
+    background: #c7d7e6;
+    color: rgb(68, 66, 66);
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 0.8rem;
+    transition: transform 0.1s ease;
+}
+button:active{transform:translateY(3px);}
+.modes{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  
+}
+.active{
+   background:rgb(126, 166, 167);
+   color: #fff;
+   border: 2px solid rgb(162, 217, 196);
+}
+/* Sanskriti Asthana */
